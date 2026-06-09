@@ -41,7 +41,7 @@ function Login() {
 
     return (
         <div className='flex flex-col justify-around bg-white rounded-xl p-15 items-center m-auto w-[400px] h-[450px] mt-20 shadow-2xl'>
-            <h1 className='text-3xl text-center font-bold text-blue-500'><i className="fa-solid fa-user text-3xl"></i>Login</h1>
+            <h1 className='text-3xl text-center font-bold text-blue-500'><i className="fa-solid fa-user text-3xl"></i>Login ...</h1>
 
             <form action="" onSubmit={handleLogin} className='flex flex-col gap-7 p-10 h-[250px] items-center justify-center'>
                 <div className={`shadow-2xl flex gap-3 p-2 ${error.email && "border border-red-500"}`}>
